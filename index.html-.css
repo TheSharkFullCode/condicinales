@@ -1,0 +1,9 @@
+.nav{
+    width: 800px;
+    height: 300px;
+    border: maroon solid 2px;
+}
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
