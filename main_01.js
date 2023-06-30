@@ -86,8 +86,6 @@
 *
 */
 
-
-
 // Ejercicio 4
 // Crea dos variables: number1 y number2. Dale los valores que quieras (números). A continuación, crea los condicionales necesarios para que se muestre por consola qué número es el mayor o bien si son iguales.
 
@@ -109,7 +107,6 @@
 *
 *
 */
-
 
 // Ejercicio 5
 // Crea tres variables: lado1, lado2, lado3. Dale 3 valores numéricos. A continuación, crea los condicionales para que se muestre por consola si el triángulo es equilátero, isósceles o escaleno.
@@ -171,10 +168,6 @@ else{
 
 
 
-
-
-
-
 // Printa el resultado de number1 + number2 si la operation es “add”.
 // Printa el resultado de number1 - number2 si la operation es “subtract”.
 // Printa el resultado de number1 * number2 si la operation es “multiply”.
@@ -217,12 +210,12 @@ else{
 
 // Resultado esperado: "El mes tiene <<numero de días>> días", y debe mostrarse en un pop-up.
 // ------------------------------------------------------------------------------------------------->
-let january = 31;   let marz = 31;
-let febrary = 28;   let april = 30;
-let may = 31;       let jun = 30;
+let january = 31;        let marz = 31;
+// let febrary = 28;        let april = 30;
+let may = 31;           let jun = 30;
 let july = 31;
-let agust = 31;     let september = 30;
-let octuber = 31;   let november = 30;
+let agust = 31;         let september = 30;
+let octuber = 31;       let november = 30; 
 let dicember = 31;  
 
 let month ="";
@@ -234,74 +227,73 @@ month = prompt("introduce un mes:'january','febrary''marz'..ect")
 // }
 
 
- switch (month){
+//  switch (month){
+//     case "january":
+//     case "marz":
+//     case "april":                         
+//     case "may":
+//     case "july":     
+//     case "agust":
+//     case "octuber":
+//     case "dicember":
+//     alert(`El mese  de ${month} tiene 31 dias`)
+//     break;
 
-    case "january":
-        console.log(january);
-        break;
-
-    case "febrary":
-    console.log(febrary);
-
-    break;
-
-    case "marz":
-
-        console.log(marz);
-        break;
-
-     case "april":
-        console.log(april); 
-        break;
-
-
-    case "may":
-    console.log(may);
-    break;
-
-    case "jun":
-    console.log(jun);
-    break;
-
-    case "july":
-    console.log(july);
-    break;
-
-    case "agust":
-    console.log(agust);
-    break;
-
-    case "september":
-    console.log(september);
-    break;
-
-    case "octuber":
-    console.log(september);
-    break;
-
-    case "octuber":
-    console.log(octuber);
-    break;
-
-    case "november":
-    console.log(november);
-    break;
-
-    case "dicember":
-    console.log(dicember);
-    break;
-
- }
- alert(`El mes que has introducido es:`+month +`y tiene:${january}dias`);
-
-
-
-
-
+//     case "febrary":
+//     alert(`el mes de:${month} tiene 28 dias`)
+//     break;
+    
+//     case "jun":
+//     case "september":
+//     case "november":
+//     alert(`The month of:${month}has 30 days`)
+   
+//     }
 
 
 // Ejercicio 10
 // Usa la misma variable del ejercicio anterior (month), y escribe los condicionales necesarios para determinar la estación (primaver, verano, otoño, invierno). El resultado también debe mostrarse al usuario en un pop-up.
+
+// (marz, april,may, jun)
+// primavera:
+// julio, agosto, septiembre; verano
+// september, octuber,november,dicember; otoño;
+// dicember,january,febrary, marz; invierno.
+
+let month1 = prompt(`introduce name a month:`);
+
+// switch(month1){
+//     case "dicember",
+//         "january",
+//         "febrary",
+//         "marz",
+//         alert("estas en la estacion de invierno")
+//         break;
+
+//     case "jun",
+//             "july",
+//             "august",
+//             "september",
+//             alert("estas en la estacion de verano")
+//             break;
+
+//     case "octuber",
+//             "november",
+//             "dicember",
+//             alert("estas en otoño")
+//             break;
+//     case "marz",
+//         "april",
+//         "may",
+//         alert("estamos en primavera")
+//             break;
+
+// }   
+
+
+
+
+
 
 
 // ----------------------------------------------------------------->
